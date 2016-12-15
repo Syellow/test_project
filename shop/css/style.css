@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'Light';
+	font-style: normal;
+	font-weight: 300;
+	src: 
+	url(../fonts/NotoSansTC-Light.woff2) format('woff2'),
+	url(../fonts/NotoSansTC-Light.woff) format('woff'),
+	url(../fonts/NotoSansTC-Light.otf) format('opentype');
+}
+@font-face {
+	font-family: 'Normal';
+	font-style: normal;
+	font-weight: 400;
+	src: 
+	url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+}
+
+body {
+	margin-top: 50px;
+	font-family: "Normal";
+	background-color:#fafafa;
+}
+.navbar-brand {
+	font-family: "Light";
+}
+.row {
+	background-color:#fafafa;
+}
+#search {
+	width: calc(100vw - 180px);
+	margin-top: 7.5px;
+	margin-bottom: 8.5px;
+	display:inline;
+}
+.side-nav {
+	text-align: center;
+}
+.table-responsive {
+	border: none;
+}
+table td {
+	border: none !important;
+	border-collapse:collapse;
+}
+.genderimg {
+	width: 40px;
+}
+.navbar-header > span >form >.btn {
+	margin-bottom: 2px;
+}
